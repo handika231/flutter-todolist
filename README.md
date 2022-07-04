@@ -1,16 +1,20 @@
-# flutter_beginner
+<div align="center">
+      <h1> <img src="https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/original/commons/new-ui-logo.png" width="80px"><br/>Simple Todolist</h1>
+     </div>
 
-A new Flutter project.
 
-## Getting Started
+# Description
+Membuat aplikasi todolist untuk submission flutter pemula Dicoding
 
-This project is a starting point for a Flutter application.
+# Features
+Beberapa package yang ada di project ini :
+- shared_preferences
+- Provider
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Tech Used
+ ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+
+
+<!-- </> with 💛 by readMD (https://readmd.itsvg.in) -->
