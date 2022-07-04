@@ -17,9 +17,10 @@ class AddPageProvider extends ChangeNotifier {
   Future getTodos() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     todos = prefs
-        .getStringList('todos')!
-        .map((value) => Todo(todo: value))
-        .toList();
+            .getStringList('todos')
+            ?.map((todo) => Todo(todo: todo))
+            .toList() ??
+        [];
     notifyListeners();
   }
 }
