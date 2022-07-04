@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_beginner/routes/name_routes.dart';
 import 'package:provider/provider.dart';
 
-import 'page/home_page.dart';
+import 'routes/route_generator.dart';
 import 'services/home_provider.dart';
 
 main() {
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
       child: const MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'ToDo List',
-        home: HomePage(),
+        initialRoute: NameRoutes.home,
+        onGenerateRoute: RouteGenerator.generateRoute,
       ),
     );
   }
