@@ -10,6 +10,7 @@ Membuat aplikasi todolist untuk submission flutter pemula Dicoding
 Beberapa package yang ada di project ini :
 - shared_preferences
 - Provider
+- Lottie
 
 
 
